@@ -1,0 +1,10 @@
+This project's purpose was to build a data structure that supports the following operations:
+
+INITIALIZE(k):  the constructor sets the integer parameter k > 0, 
+                which will never be modified afterwards.
+                
+OFFER(x): Add x to the data structure.
+
+MAX: Return the maximum of the last k offered elements. 
+     If the data structure contains less than k elements, 
+     it returns the maximum element offered so far.
